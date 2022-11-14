@@ -741,8 +741,16 @@ margin-bottom: 20px;
  font-size: 16px;
  line-height: 1.87;
  letter-spacing: 0.06em;
+ transition: box-shadow 250ms var(--cubic);
 
- 
+
+
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 .subscribe-icon{
